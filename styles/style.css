@@ -1,0 +1,92 @@
+/*--- zero style ---*/
+*{padding: 0; margin: 0; border: 0; }
+*,*:before,*:after{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;	width: 100%; font-size: 100%; line-height: 1; font-size: 14px; -ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*--- base setings ---*/
+.wraper {
+    max-width: 1200px;
+    margin: 0 auto;
+    /*position: relative;*/
+}
+
+/*--- navigation ---*/
+.navigation {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    /*position: absolute;*/
+    
+}
+
+.navigation__logo-text {
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: underline;
+}
+
+.navigation__pills-pill {
+    margin: 0 12px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.special {
+    background-color: #478A84;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 4px 5px 0px -1px rgba(129, 192, 187, 0.85);
+}
+
+.special:hover {
+    box-shadow: 6px 7px 0px -1px rgba(129, 192, 187, 1);
+    transition-duration: 0.2s;
+}
+
+/*--- header ---*/
+.header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/header_img.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-left: 10%;
+    
+}
+
+.header__text-head {
+    font-size: 8.5em;
+    color: #fff;    
+    background-color: #478A84;
+    padding: 10px;
+    display: table;  
+}
+
+.header__text-sub {
+    font-size: 3.5em;
+    color: #fff;
+    background-color: #478A84;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
